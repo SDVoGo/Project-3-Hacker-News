@@ -1,0 +1,39 @@
+{
+  "name": "project-3-physical-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDVoGo/Project-3-Hacker-News.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDVoGo/Project-3-Hacker-News/issues"
+  },
+  "homepage": "https://github.com/SDVoGo/Project-3-Hacker-News#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21"
+  }
+}
